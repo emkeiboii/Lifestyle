@@ -203,7 +203,7 @@ h2{
   }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:60x0px){
   .container-content{
     grid-template-columns: 1fr;
     gap: 40px;
