@@ -53,7 +53,7 @@ nav{
   transition: all 250ms ease-in-out;
 }
 
-.element a:hover{
+.element:hover{
   transform: translateY(-4px);
   box-shadow: 0 7px 11px rgba(0 ,0 ,0 ,0.4);
 }
