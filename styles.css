@@ -98,6 +98,8 @@ hr{
 h1{
   font-size: 2rem;
   font-weight: 800;
+  color: white;
+  cursor: pointer;
 }
 
 h2{
@@ -193,6 +195,52 @@ h2{
   border: 1px solid white;
   width: 100%;
 }
+
+
+
+/* Web Links */
+
+#journaling{
+  background-color: var(--clr-todolist);
+}
+
+#dieting{
+  background-color: var(--clr-dieting);
+}
+
+#meditation{
+  background-color: var(--clr-meditation);
+}
+
+p a{
+  text-decoration: underline;
+  color: grey;
+}
+
+.header p{
+  color: grey;
+}
+
+
+
+.img-container img{
+  width: 700px; 
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 30px;
+}
+
+.variant{
+  display: grid;
+  grid-template-columns: 700px;
+}
+
+h3{
+  font-style: italic;
+}
+
+
 
 
 @media screen and (max-width:770px){
